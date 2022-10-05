@@ -1,4 +1,4 @@
-# io-raster: Raster Map Handler Library Image.
+# IO Aero: io-raster - Raster Map Handler Library Image
 
 This image supports the use of a Docker container containing the **io-raster** library in a Ubuntu environment.
 
