@@ -1,12 +1,12 @@
-# io-raster: Raster Map Handler Library Image.
+# io-aero-dev: IO Aero Development Image
 
-This image supports the use of a Docker container containing the **io-raster** library in a Ubuntu environment.
+This image supports the use of a Docker container for the development of the **IO Aero** software in an Ubuntu environment.
 
 ### Table of Contents
 
 **[1. Installed core components](#installed)**<br>
-**[2. Creating a new **io-raster** container](#creating)**<br>
-**[3. Working with an existing **io-raster** container](#working)**<br>
+**[2. Creating a new io-aero-dev container](#creating)**<br>
+**[3. Working with an existing io-aero-dev container](#working)**<br>
 
 ----
 
@@ -23,28 +23,35 @@ With the following command you can check in detail which software versions are i
 | Component      | Version     | Remark                           | Status |
 |----------------|-------------|----------------------------------|--------|
 | asdf           | v0.10.2     | base version                     |        | 
+| Docker Desktop | 20.10.17    | base version [Docker Image & VM] |        | 
+| dos2unix       | 7.4.2       | base version                     |        | 
+| GDAL           | 3.5.2       |                                  |        | 
+| Git            | 2.34.1      | base version                     |        | 
+| GNU make       | 4.3         | base version                     |        | 
 | Python3        | 3.10.7      |                                  |        |
+| Rasterio       | 1.3.2       |                                  |        |
 | Ubuntu         | 22.04.1 LTS | base version [jammy]             |        | 
+| Vim            | 9.0.0000    | base version                     |        |
 
 ---
 
-## <a name="creating"></a> 2. Creating a new **io-raster** container
+## <a name="creating"></a> 2. Creating a new io-aero-dev container
 
 ## 2.1 Getting started
 
     > REM Assumptions:
-    > REM   - the name of the Docker container should be: my_io_raster
-    > REM   - you want to use the latest version of the **io-raster** image
-    > docker run --name my_io_raster ioaero/io-raster:latest
+    > REM   - the name of the Docker container should be: my_io_aero_dev
+    > REM   - you want to use the latest version of the io-aero-dev image
+    > docker run --name my_io_aero_dev ioaero/io-aero-dev:latest
             
     > REM Stopping the container
-    > docker stop my_io_raster
+    > docker stop my_io_aero_dev
     
     > REM Restarting the container
-    > docker start my_io_raster
+    > docker start my_io_aero_dev
 
     > REM Entering a running container
-    > docker exec -it my_io_raster bash
+    > docker exec -it my_io_aero_dev bash
 
 ## 2.2 Detailed syntax
 
@@ -54,7 +61,7 @@ A new container can be created with the `docker run` command.
 
     docker run -it 
                [--name <container_name>] \
-               ioaero/io-raster[:<version>] 
+               ioaero/io-aero-dev[:<version>] 
                [<cmd>]
 
 ##### Parameters
@@ -67,11 +74,11 @@ Detailed documentation for the command `docker run` can be found [here](https://
 
 ##### Example
 
-Creating a new Docker container named `my_io_raster` using a repository inside the Docker container:  
+Creating a new Docker container named `my_io_aero_dev` using a repository inside the Docker container:  
 
-    `docker run -it --name my_io_raster ioaero/io-raster:latest`
+    `docker run -it --name my_io_aero_dev ioaero/io-aero-dev:latest`
 
-## <a name="working"></a> 3. Working with an existing **io-raster** container
+## <a name="working"></a> 3. Working with an existing io-aero-dev container
 
 ### 3.1 Starting a stopped container
 
@@ -83,7 +90,7 @@ A previously stopped container can be started with the `docker start` command.
 
 ##### Parameter
 
-- **container_name** - the mandatory container identification, that is a UUID long identifier, an UUID short identifier or a previously given name
+- **container_name** - the mandatory container identification, that is an UUID long identifier, an UUID short identifier or a previously given name
 
 Detailed documentation for the command `docker start` can be found [here](https://docs.docker.com/engine/reference/commandline/start/).
 
