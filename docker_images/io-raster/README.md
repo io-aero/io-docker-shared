@@ -72,7 +72,6 @@ With the following command you can check in detail which software versions are i
 
     raster.version()
 
-
 ### 2.3 Detailed syntax
 
 A new container can be created with the `docker run` command.
@@ -96,7 +95,7 @@ Detailed documentation for the command `docker run` can be found [here](https://
 
 Creating a new Docker container named `my_io_raster` using a repository inside the Docker container:  
 
-    `docker run -it --name my_io_raster ioaero/io-raster:latest`
+    docker run -it --name my_io_raster ioaero/io-raster:latest
 
 ## <a name="working"/> 3. Working with an existing **io-raster** container
 
