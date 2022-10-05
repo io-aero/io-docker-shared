@@ -20,33 +20,60 @@ With the following command you can check in detail which software versions are i
 
 ### Version 0.9.0
 
-| Component      | Version     | Remark                           | Status |
-|----------------|-------------|----------------------------------|--------|
-| asdf           | v0.10.2     | base version                     |        | 
-| Python3        | 3.10.7      |                                  |        |
-| Ubuntu         | 22.04.1 LTS | base version [jammy]             |        | 
+| Component      | Version     | Remark       | Status |
+|----------------|-------------|--------------|--------|
+| asdf           | v0.10.2     | base version |        | 
+| GCC & G++      | 11.2.0      | base version |        | 
+| Git            | 2.34.1      | base version |        | 
+| GNU make       | 4.3         | base version |        | 
+| io-raster      | 0.9.0       |              |        | 
+| Python3        | 3.10.7      |              |        |
+| Ubuntu         | 22.04.1 LTS | jammy        |        | 
+| Vim            | 9.0.0000    | base version |        |
+| wget           | 1.21.2      | base version |        |
 
 ---
 
-## <a name="creating"/> 2. Creating a new **io-raster** container
+## <a name="creating"/> 2. Getting started
 
-### 2.1 Getting started
+### 2.1 Docker Container Administration
 
-    > REM Assumptions:
-    > REM   - the name of the Docker container should be: my_io_raster
-    > REM   - you want to use the latest version of the **io-raster** image
-    > docker run --name my_io_raster ioaero/io-raster:latest
-            
-    > REM Stopping the container
-    > docker stop my_io_raster
-    
-    > REM Restarting the container
-    > docker start my_io_raster
+**Creating and running a new container:**
 
-    > REM Entering a running container
-    > docker exec -it my_io_raster bash
+    docker run -it --name io-raster ioaero/io-raster:latest
 
-### 2.2 Detailed syntax
+**Restarting the container:**
+
+    docker start io-raster
+
+**Check the container is running:**
+ 
+    docker ps
+
+**To access a running container:**
+
+    docker attach --detach-keys="ctrl-a" io-raster 
+
+**Stopping a running container:**
+
+    docker stop io-raster
+
+### 2.2 Docker Container Usage
+
+**Starting Python in the Virtual Environment (inside the `io-raster` container):**
+
+    python3 -m pipenv run python3
+
+**Make the `io_raster` module available:**
+
+    from io_raster import raster
+
+**Query the version of the **io-raster** library:**
+
+    raster.version()
+
+
+### 2.3 Detailed syntax
 
 A new container can be created with the `docker run` command.
 
