@@ -1,3 +1,3 @@
-# IO-AERO - Shared Resources
+# IO Aero - Shared Docker Resources
 
-This repository contains the README files for the IO-AERO Docker images hosted in DockerHub.
+This repository contains the README files for the IO Aero Docker images hosted locally and on [DockerHub]().
