@@ -1,6 +1,6 @@
 # io-raster: Raster Map Handler Library Image.
 
-This image supports the use of a Docker container for the use of the **io-raster** library in an Ubuntu environment.
+This image supports the use of a Docker container containing the **io-raster** library in an Ubuntu environment.
 
 ### Table of Contents
 
@@ -56,7 +56,7 @@ A new container can be created with the `docker run` command.
 
     docker run -it 
                [--name <container_name>] \
-               ioaero/io_raster[:<version>] 
+               ioaero/io-raster[:<version>] 
                [<cmd>]
 
 ##### Parameters
@@ -71,7 +71,7 @@ Detailed documentation for the command `docker run` can be found [here](https://
 
 Creating a new Docker container named `my_io_raster` using a repository inside the Docker container:  
 
-    `docker run -it --name my_io_raster ioaero/io_raster:latest`
+    `docker run -it --name my_io_raster ioaero/io-raster:latest`
 
 ## <a name="working"></a> 3. Working with an existing **io-raster** container
 
