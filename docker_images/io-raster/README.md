@@ -28,7 +28,7 @@ With the following command you can check in detail which software versions are i
 
 ---
 
-## <a name="creating"></a> 2. Creating a new **io-raster** container
+## <a name="creating"/> 2. Creating a new **io-raster** container
 
 ### 2.1 Getting started
 
@@ -71,7 +71,7 @@ Creating a new Docker container named `my_io_raster` using a repository inside t
 
     `docker run -it --name my_io_raster ioaero/io-raster:latest`
 
-## <a name="working"></a> 3. Working with an existing **io-raster** container
+## <a name="working"/> 3. Working with an existing **io-raster** container
 
 ### 3.1 Starting a stopped container
 
