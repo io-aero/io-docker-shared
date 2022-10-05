@@ -10,7 +10,7 @@ This image supports the use of a Docker container for the development of the **I
 
 ----
 
-## <a name="installed"></a> 1. Installed core components
+## <a name="installed"/> 1. Installed core components
 
 With the following command you can check in detail which software versions are included in the Docker image:
 
@@ -35,9 +35,9 @@ With the following command you can check in detail which software versions are i
 
 ---
 
-## <a name="creating"></a> 2. Creating a new io-aero-dev container
+## <a name="creating"/> 2. Creating a new io-aero-dev container
 
-## 2.1 Getting started
+### 2.1 Getting started
 
     > REM Assumptions:
     > REM   - the name of the Docker container should be: my_io_aero_dev
@@ -53,7 +53,7 @@ With the following command you can check in detail which software versions are i
     > REM Entering a running container
     > docker exec -it my_io_aero_dev bash
 
-## 2.2 Detailed syntax
+### 2.2 Detailed syntax
 
 A new container can be created with the `docker run` command.
 
@@ -78,7 +78,7 @@ Creating a new Docker container named `my_io_aero_dev` using a repository inside
 
     `docker run -it --name my_io_aero_dev ioaero/io-aero-dev:latest`
 
-## <a name="working"></a> 3. Working with an existing io-aero-dev container
+## <a name="working"/> 3. Working with an existing io-aero-dev container
 
 ### 3.1 Starting a stopped container
 
