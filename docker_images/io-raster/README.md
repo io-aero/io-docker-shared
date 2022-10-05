@@ -30,7 +30,7 @@ With the following command you can check in detail which software versions are i
 
 ## <a name="creating"></a> 2. Creating a new **io-raster** container
 
-## 2.1 Getting started
+### 2.1 Getting started
 
     > REM Assumptions:
     > REM   - the name of the Docker container should be: my_io_raster
@@ -46,7 +46,7 @@ With the following command you can check in detail which software versions are i
     > REM Entering a running container
     > docker exec -it my_io_raster bash
 
-## 2.2 Detailed syntax
+### 2.2 Detailed syntax
 
 A new container can be created with the `docker run` command.
 
