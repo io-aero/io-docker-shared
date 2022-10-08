@@ -18,6 +18,22 @@ With the following command you can check in detail which software versions are i
 
 ---
 
+### Version 1.0.1
+
+| Component      | Version     | Remark                       | Status |
+|----------------|-------------|------------------------------|--------|
+| asdf           | v0.10.2     | base version                 |        | 
+| cURL           | 7.81.0      | base version (only VM & WSL) |        | 
+| Docker Desktop | 20.10.17    | base version (only VM & WSL) |        | 
+| dos2unix       | 7.4.2       | base version (only VM & WSL) |        | 
+| GCC & G++      | 11.2.0      | base version                 |        | 
+| Git            | 2.34.1      | base version                 |        | 
+| GNU make       | 4.3         | base version                 |        | 
+| Python3        | 3.10.7      |                              |        |
+| Ubuntu         | 22.04.1 LTS | jammy                        |        | 
+| Vim            | 9.0.0000    | base version                 |        |
+| wget           | 1.21.2      | base version                 |        |
+
 ### Version 1.0.0
 
 | Component      | Version     | Remark                       | Status |

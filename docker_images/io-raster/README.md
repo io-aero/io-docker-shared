@@ -13,6 +13,20 @@ With the following command you can check in detail which software versions are i
 
     apt list --installed
 
+### Version 0.9.1
+
+| Component      | Version     | Remark       | Status |
+|----------------|-------------|--------------|--------|
+| asdf           | v0.10.2     | base version |        | 
+| GCC & G++      | 11.2.0      | base version |        | 
+| Git            | 2.34.1      | base version |        | 
+| GNU make       | 4.3         | base version |        | 
+| io-raster      | 0.9.1       |              |        | 
+| Python3        | 3.10.7      |              |        |
+| Ubuntu         | 22.04.1 LTS | jammy        |        | 
+| Vim            | 9.0.0000    | base version |        |
+| wget           | 1.21.2      | base version |        |
+
 ### Version 0.9.0
 
 | Component      | Version     | Remark       | Status |
