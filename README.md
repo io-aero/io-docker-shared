@@ -1,8 +1,8 @@
-# IO Aero: Shared Docker Resources - README
+# IO-Aero: Shared Docker Resources - README
 
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/io-aero/io-docker-shared/22.10.05)
 
-This repository contains the README files for the IO Aero Docker images hosted locally and on [DockerHub](https://hub.docker.com/orgs/ioaero/repositories).
+This repository contains the README files for the IO-Aero Docker images hosted locally and on [DockerHub](https://hub.docker.com/orgs/ioaero/repositories).
 
 ## Directory and File Structure of this Repository
 
