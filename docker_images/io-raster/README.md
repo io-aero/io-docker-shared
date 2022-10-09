@@ -1,6 +1,6 @@
-# IO Aero: io-raster - Raster Map Handler Library Image
+# IO-Aero: IO-RASTER - Raster Map Handler Library Image
 
-This image supports the use of a Docker container containing the **io-raster** library in a Ubuntu environment.
+This image supports the use of a Docker container containing the **IO-RASTER** library in a Ubuntu environment.
 
 ### Table of Contents
 
@@ -21,7 +21,7 @@ With the following command you can check in detail which software versions are i
 | GCC & G++      | 11.2.0      | base version |        | 
 | Git            | 2.34.1      | base version |        | 
 | GNU make       | 4.3         | base version |        | 
-| io-raster      | 0.9.1       |              |        | 
+| IO-RASTER      | 0.9.1       |              |        | 
 | Python3        | 3.10.7      |              |        |
 | Ubuntu         | 22.04.1 LTS | jammy        |        | 
 | Vim            | 9.0.0000    | base version |        |
@@ -35,7 +35,7 @@ With the following command you can check in detail which software versions are i
 | GCC & G++      | 11.2.0      | base version |        | 
 | Git            | 2.34.1      | base version |        | 
 | GNU make       | 4.3         | base version |        | 
-| io-raster      | 0.9.0       |              |        | 
+| IO-RASTER      | 0.9.0       |              |        | 
 | Python3        | 3.10.7      |              |        |
 | Ubuntu         | 22.04.1 LTS | jammy        |        | 
 | Vim            | 9.0.0000    | base version |        |
@@ -67,7 +67,7 @@ Stopping a running container:
 
 ### 2.2 Docker Container Usage
 
-Starting Python in the Virtual Environment (inside the `io-raster` container):
+Starting Python in the Virtual Environment (inside the **IO-RASTER** container):
 
     python3 -m pipenv run python3
 
@@ -75,7 +75,7 @@ Make the `io_raster` module available:
 
     from io_raster import raster
 
-Query the version of the **io-raster** library:
+Query the version of the **IO-RASTER** library:
 
     raster.version()
 

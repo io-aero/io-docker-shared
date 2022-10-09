@@ -1,6 +1,6 @@
-# IO Aero: io-aero-dev - IO Aero Development Image
+# IO-Aero: io-aero-dev - IO-Aero Development Image
 
-This image supports the use of a Docker container for the development of the **IO Aero** software in an Ubuntu environment.
+This image supports the use of a Docker container for the development of the **IO-Aero** software in an Ubuntu environment.
 
 ### Table of Contents
 

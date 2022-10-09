@@ -1,4 +1,4 @@
-# IO Aero: Shared Docker Resources - Release Notes
+# IO-Aero: Shared Docker Resources - Release Notes
 
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/io-aero/io-docker-shared/22.10.05)
 
