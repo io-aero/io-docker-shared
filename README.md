@@ -14,9 +14,9 @@ This repository contains the README files for the **IO-Aero** Docker images host
 
 ### 2. Files
 
-| File                          | Functionality                                                    |
-|-------------------------------|------------------------------------------------------------------|
-| .gitignore                    | Configuration of files and folders to be ignored.                |
-| LICENSE                       | Text of the licence terms - TODO by lho.                         |
-| README.md                     | This file.                                                       |
-| Release-Notes.md              | Release notes.                                                   |
+| File             | Functionality                                                    |
+|------------------|------------------------------------------------------------------|
+| .gitignore       | Configuration of files and folders to be ignored.                |
+| LICENSE.md       | Text of the licence terms.                         |
+| README.md        | This file.                                                       |
+| Release-Notes.md | Release notes.                                                   |
